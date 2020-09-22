@@ -1,0 +1,126 @@
+/*Criado por @ASCENCIODEV
+*/
+
+@import url("/css/font.css");
+
+/*GERAL
+*/
+
+* {
+    font-family: var(--font);
+    margin: 0px;
+    padding: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+body {
+    background: #111111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    margin: 4em;
+}
+
+section, h1 {
+    color: palegreen;
+    font-size: 39px;
+    text-align: center;
+    padding: 45px;
+}
+
+a {
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+    color: #7a7a7a;
+    font-size: 15px;
+}
+
+a:hover {
+    color: #333333;
+}
+
+form {
+    width: 100%;
+    height: 0%;
+    background: #121214;
+    border: 1px solid rgba(255, 266, 255, 0.3);
+    padding: 20px;
+}
+
+/*Formulário*/
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario a {
+    font-size: 15px;
+}
+
+input {
+    text-transform: uppercase;
+    text-align: left;
+    padding: 20px;
+    margin-top: 10px;
+    border: none;
+    background: #ededed;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 240px;
+    
+}
+
+input:hover {
+    background: #e7e7e7;
+}
+
+input::placeholder {
+    color: #333333;
+}
+
+
+.toggle {
+    position: relative;
+    top: -55px;
+    left: 85%;
+    width: 35px;
+    height: 30px;
+    background: url(/img/toggle.png);
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+
+
+/*Button*/
+
+.btn {
+    margin-top: 30px;
+    width: 120px;
+    height: 50px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    background: #333333;
+    margin-bottom: 35px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.btn:hover {
+    color: #333333;
+    background:white;
+    cursor: pointer;
+    font-size: 20px;
+
+}

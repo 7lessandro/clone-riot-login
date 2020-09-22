@@ -1,0 +1,11 @@
+/*@font-face*/
+
+@font-face {
+    font-family: 'FF Mark W05';
+    src: url('/fonts/FontFont_FF.Mark.Pro.Bold.otf')
+}
+
+:root {    
+    /* font family variables. */ 
+    --font:'FF Mark W05';
+}

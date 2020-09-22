@@ -21,8 +21,8 @@ document.querySelector('.show-password').addEventListener('click', function() {
         this.classList.add('fa-eye')
         tags[1].type = 'text'
     } else {
-        this.classList.remove('fa-eye-slash')
-        this.classList.add('fa-eye')
+        this.classList.remove('fa-eye')
+        this.classList.add('fa-eye-slash')
         tags[1].type = 'password'
     }
 })

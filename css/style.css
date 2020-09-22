@@ -108,6 +108,7 @@ h5, p {
 .show-password {
     position: absolute;
     right: 20px;
+    top:0;
     line-height: 70px;
     font-size: 22px;
     cursor: pointer;

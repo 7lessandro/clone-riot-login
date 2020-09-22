@@ -30,6 +30,17 @@ nav {
     justify-content: space-between;
 }
 
+h5, p {
+    padding: 5px;
+    color: rgb(249,249,249,0.3);
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.08em;
+    font-weight: 800;
+}
+
 .logo {
     width: 50px;
 }
@@ -175,4 +186,47 @@ nav {
     background-color: transparent;
     color: #ddd;
     border: 2px solid;
+}
+
+/*INFORMAÕES
+*/
+
+.info {
+    text-transform: uppercase;
+    padding: 20px;
+    color: rgb(249,249,249,0.3);
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.08em;
+    font-weight: 800;
+}
+
+.info2 {
+    text-transform: uppercase;
+    padding: 20px;
+    color: rgb(249,249,249,0.3);
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.08em;
+    font-weight: 800;
+}
+
+.info2 a {
+    color: #ddd;
+    list-style: none;
+    text-decoration: none;
+}
+
+.info a {
+    color: #ddd;
+    list-style: none;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 13px;
 }

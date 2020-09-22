@@ -7,7 +7,7 @@
 */
 
 * {
-    margin: 0;
+    margin: 4px;
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font);
@@ -43,6 +43,20 @@ h5, p {
 
 .logo {
     width: 50px;
+}
+
+.world {
+    font-size: 16px;
+    width: 105px;
+    height: 45px;
+    background: transparent;
+    color: #ddd;
+    border: 2px solid #d13639a2;
+    border-radius: 45px;
+}
+
+.world:hover {
+    border: 2px solid #d13639;
 }
 
 /*FORMULÁRIO
@@ -229,4 +243,11 @@ h5, p {
 
 footer p {
     font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background: url(/img/bg.jpg) no-repeat;
+        background-size: cover;
+    }
 }
